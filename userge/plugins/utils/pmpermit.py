@@ -278,10 +278,10 @@ async def uninvitedPmHandler(message: Message):
                 )
             except BotInlineDisabled:
                 await message.reply(
-                    noPmMessage.format_map(SafeDict(**user_dict)) + '\n`- Protected by userge`')
+                    noPmMessage.format_map(SafeDict(**user_dict)) + '\n`- Secured by nezuko`')
         else:
             await message.reply(
-                noPmMessage.format_map(SafeDict(**user_dict)) + '\n`- Protected by userge`')
+                noPmMessage.format_map(SafeDict(**user_dict)) + '\n`- Secured by nezuko`')
         await asyncio.sleep(1)
         await CHANNEL.log(f"#NEW_MESSAGE\n{user_dict['mention']} has messaged you")
 

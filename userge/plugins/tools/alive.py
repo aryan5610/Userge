@@ -81,7 +81,7 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     **__Pyrogram__**: `{versions.__pyro_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🎖 ** This is Nezuko bot , don't state too much , perv!!**
+🧚🏻‍♀️** This is Nezuko bot , don't state too much , perv!!**
 """
     else:
         copy_ = "https://github.com/UsergeTeam/Userge/blob/master/LICENSE"

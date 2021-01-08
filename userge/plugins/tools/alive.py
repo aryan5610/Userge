@@ -22,7 +22,7 @@ from userge.utils import get_file_id_and_ref
 
 _LOG = logging.getLogger(__name__)
 _IS_STICKER = False
-_DEFAULT = "https://t.me/theUserge/31"
+_DEFAULT = "https://t.me/onlyanimechannel/7"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID, _LOGO_REF = None, None
 
@@ -56,7 +56,7 @@ async def alive(message: Message):
     **__Pyrogram__**: `{versions.__pyro_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🎖 **{versions.__license__}** | 👥 **{versions.__copyright__}** | 🧪 **[Repo]({Config.UPSTREAM_REPO})**
+**THIS NEZUKO BOT COMMENCING !! Don't stare too much !!**
 """
     else:
         copy_ = "https://github.com/UsergeTeam/Userge/blob/master/LICENSE"
